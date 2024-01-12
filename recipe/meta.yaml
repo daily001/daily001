@@ -15,7 +15,7 @@ source:
     - tggtest-includes.patch
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 outputs:
@@ -36,7 +36,6 @@ outputs:
         - gds-base >={{ gds_base_version }}
         - gds-base-crtools >={{ gds_base_version }}
         - root_base
-        - root-binaries
       run:
         - gds-base >={{ gds_base_version }}
         - gds-base-crtools >={{ gds_base_version }}
@@ -44,7 +43,6 @@ outputs:
     test:
       requires:
         - pkg-config
-        - root-binaries
       commands:
         # basic file existence
         - test -f ${PREFIX}/include/gds/dttview/TLGMath.hh  # [unix]
