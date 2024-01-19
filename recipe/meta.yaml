@@ -1,5 +1,5 @@
 {% set name = "gds-gui" %}
-{% set version = "2.19.5" %}
+{% set version = "2.19.6" %}
 
 # dependencies
 {% set gds_base_version = "2.19.6" %}
@@ -10,12 +10,12 @@ package:
 
 source:
   url: https://software.igwn.org/sources/source/{{ name }}-{{ version }}.tar.gz
-  sha256: b1050d7fc66619c6ea2fabad69f859e7ef115188fe2189f3be5905ffdebd358b
+  sha256: ed2095ba89448c060e4ee88f6007502f1d83b61e5bfc57b554c63bc75a39d5ed
   patches:
     - tggtest-includes.patch
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
 
 outputs:
