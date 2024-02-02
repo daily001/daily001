@@ -2,7 +2,7 @@
 {% set version = "2.19.6" %}
 
 # dependencies
-{% set gds_base_version = "2.19.6" %}
+{% set gds_base_version = "2.19.7" %}
 
 package:
   name: {{ name|lower }}
@@ -11,8 +11,6 @@ package:
 source:
   url: https://software.igwn.org/sources/source/{{ name }}-{{ version }}.tar.gz
   sha256: ed2095ba89448c060e4ee88f6007502f1d83b61e5bfc57b554c63bc75a39d5ed
-  patches:
-    - tggtest-includes.patch
 
 build:
   number: 0
