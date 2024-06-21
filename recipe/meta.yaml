@@ -13,7 +13,7 @@ source:
   sha256: 779b5e7ad20595b50cd07aa908722d68ed388434b6cb64a71787cce98688f83b
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 outputs:
@@ -30,6 +30,7 @@ outputs:
         - {{ compiler('cxx') }}
         - make
         - pkg-config
+        - sysroot_linux-64 2.17  # [linux64]
       host:
         - gds-base >={{ gds_base_version }}
         - gds-base-crtools >={{ gds_base_version }}
