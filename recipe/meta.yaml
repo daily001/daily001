@@ -1,8 +1,8 @@
 {% set name = "gds-gui" %}
-{% set version = "2.19.8" %}
+{% set version = "3.0.0" %}
 
 # dependencies
-{% set gds_base_version = "2.19.10" %}
+{% set gds_base_version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://software.igwn.org/sources/source/{{ name }}-{{ version }}.tar.gz
-  sha256: 0848a787375014e342029226680619f9de5095c2c04ac35358379fe0f3fd25d9
+  sha256: 04c85cc66456772711638a80db7639721355fd4d7f3be2b85eb1e8630db87af3
 
 build:
   number: 0
@@ -24,7 +24,7 @@ outputs:
         # header needed only
         - gds-base-gdstrig
       run_exports:
-        - {{ pin_subpackage("gds-gui-crtools", max_pin="x.x") }}
+        - {{ pin_subpackage("gds-gui-crtools", max_pin="x") }}
     requirements:
       build:
         - {{ compiler('cxx') }}
