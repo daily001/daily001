@@ -1,11 +1,27 @@
+About gds-gui-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gds-gui-feedstock/blob/main/LICENSE.txt)
+
 About gds-gui
-=============
+-------------
 
 Home: https://wiki.ligo.org/Computing/DASWG/DMT
 
 Package license: GPL-2.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gds-gui-feedstock/blob/main/LICENSE.txt)
+Summary: GDS GUI libraries
+
+Development: https://git.ligo.org/gds/gds.git
+
+GDS control room tools and GUI libraries
+
+About gds-gui-crtools
+---------------------
+
+Home: https://wiki.ligo.org/Computing/DASWG/DMT
+
+Package license: GPL-2.0-only
 
 Summary: GDS control room tools
 
