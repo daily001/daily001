@@ -1,11 +1,27 @@
+About gds-gui-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gds-gui-feedstock/blob/main/LICENSE.txt)
+
 About gds-gui
-=============
+-------------
 
 Home: https://wiki.ligo.org/Computing/DASWG/DMT
 
 Package license: GPL-2.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gds-gui-feedstock/blob/main/LICENSE.txt)
+Summary: GDS GUI libraries
+
+Development: https://git.ligo.org/gds/gds.git
+
+GDS control room tools and GUI libraries
+
+About gds-gui-crtools
+---------------------
+
+Home: https://wiki.ligo.org/Computing/DASWG/DMT
+
+Package license: GPL-2.0-only
 
 Summary: GDS control room tools
 
@@ -18,7 +34,14 @@ Current build status
 ====================
 
 
-<table>
+<table><tr>
+    <td>Travis</td>
+    <td>
+      <a href="https://app.travis-ci.com/conda-forge/gds-gui-feedstock">
+        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/gds-gui-feedstock/main.svg?label=Linux">
+      </a>
+    </td>
+  </tr>
     
   <tr>
     <td>Azure</td>
@@ -43,13 +66,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13281&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gds-gui-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13281&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gds-gui-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_" alt="variant">
                 </a>
               </td>
             </tr><tr>
