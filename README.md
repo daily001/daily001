@@ -3,6 +3,7 @@ About gds-gui-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gds-gui-feedstock/blob/main/LICENSE.txt)
 
+
 About gds-gui
 -------------
 
@@ -15,6 +16,7 @@ Summary: GDS GUI libraries
 Development: https://git.ligo.org/gds/gds.git
 
 GDS control room tools and GUI libraries
+
 
 About gds-gui-crtools
 ---------------------
