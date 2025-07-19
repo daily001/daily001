@@ -2,7 +2,7 @@
 {% set version = "3.0.1" %}
 
 # dependencies
-{% set gds_base_version = "3.0.0" %}
+{% set gds_base_version = "3.0.1" %}
 
 package:
   name: {{ name|lower }}
