@@ -1,8 +1,8 @@
 {% set name = "gds-gui" %}
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 
 # dependencies
-{% set gds_base_version = "3.0.0" %}
+{% set gds_base_version = "3.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -10,11 +10,12 @@ package:
 
 source:
   url: https://software.igwn.org/sources/source/{{ name }}-{{ version }}.tar.gz
-  sha256: 04c85cc66456772711638a80db7639721355fd4d7f3be2b85eb1e8630db87af3
+  sha256: 8f92b4203ee7d6d203e27b09d7a5337cd6d140a2929de95ddbb01a63113071f2
 
 build:
-  number: 6
+  number: 0
   skip: true  # [win]
+  skip: true  # [osx and root_base == "6.30.4"]
 
 outputs:
   - name: gds-gui-crtools
