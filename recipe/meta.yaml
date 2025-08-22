@@ -13,7 +13,7 @@ source:
   sha256: 8f92b4203ee7d6d203e27b09d7a5337cd6d140a2929de95ddbb01a63113071f2
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   skip: true  # [osx and root_base == "6.30.4"]
 
