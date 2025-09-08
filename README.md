@@ -36,14 +36,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://app.travis-ci.com/conda-forge/gds-gui-feedstock">
-        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/gds-gui-feedstock/main.svg?label=Linux">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
@@ -68,34 +61,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13281&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gds-gui-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_root_base6.32.2" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_root_base6.32.0</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13281&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gds-gui-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_root_base6.32.0" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_root_base6.32.2</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13281&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gds-gui-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_root_base6.32.2" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_root_base6.32.0</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13281&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gds-gui-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_root_base6.32.0" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_root_base6.32.2</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13281&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gds-gui-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_root_base6.32.2" alt="variant">
                 </a>
               </td>
             </tr>
